@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --base-color: #CF3031;
+}
+
+span{
+    color: var(--base-color);
+}

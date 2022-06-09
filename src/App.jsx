@@ -1,12 +1,17 @@
+import Welcome from './pages/Welcome/Welcome.jsx';
 
+import {
+  Routes,
+  Route,
+} from "react-router-dom"
 
 function App() {
 
 
   return (
-    <div className="App">
-     
-    </div>
+   <Routes>
+      <Route path="/" element={<Welcome />} />
+   </Routes>
   )
 }
 
