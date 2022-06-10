@@ -8,7 +8,7 @@ function Welcome() {
         <div className="apresentacao">
           <h1>SALVATION PIZZA</h1>
           <span className="bem-vindo">Seja bem-vindo</span>
-          <Link to="*">
+          <Link to="/home">
             <button>
               <p>Pedir online</p>
               <p>Delivery ou Local</p>
