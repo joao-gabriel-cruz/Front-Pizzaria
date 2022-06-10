@@ -1,7 +1,9 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import Button from '../../components/button/button';
 import './Welcome.css';
 
 function Welcome() {
+  const navigate = useNavigate();
   return (
     <section className="Welcome">
       <div className="boxAp">
@@ -9,10 +11,7 @@ function Welcome() {
           <h1>SALVATION PIZZA</h1>
           <span className="bem-vindo">Seja bem-vindo</span>
           <Link to="/home">
-            <button>
-              <p>Pedir online</p>
-              <p>Delivery ou Local</p>
-            </button>
+            <Button className='button' functionClick={() => navigate('/home')} name='Pedir online' />
           </Link>
         </div>
       </div>

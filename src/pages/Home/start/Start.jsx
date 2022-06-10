@@ -1,10 +1,13 @@
 
-import { Link } from  'react-router-dom';
+import { Link, useNavigate } from  'react-router-dom';
 import Button from '../../../components/button/button';
 import './Start.css';
 
 function Start() {
+
   const navigate = useNavigate();
+
+
   return (
     <section className="Home">
         <div className='textHome'>
