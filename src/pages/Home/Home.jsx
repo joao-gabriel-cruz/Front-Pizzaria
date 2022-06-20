@@ -1,20 +1,27 @@
-import Start from './start/Start';
-import Header from '../../components/Header/header';
+import Start from '../start/Start';
+import Header from '../../components/header';
+import Delivery from '../Delivery/Delivery';
+import '../../Style/header.css'
 
 function Home() {
   return (
-    <div>
+    <main>
       <Header
+        spaceYnav={20}
+        className='headerComponet'
         link={[
-          { name: 'home', link: '#start' },
-          { name: 'sobre', link: '#' },
+          { name: 'Home', link: '#start' },
+          { name: 'Delivery', link: '#delivery' },
         ]}
         title={{ title: 'Salvation' }}
       />
-      <div id='start'>
+      <div id="start">
         <Start />
       </div>
-    </div>
+      <div id='delivery'>
+        <Delivery />
+      </div>
+    </main>
   );
 }
 export default Home;

@@ -1,0 +1,17 @@
+
+
+.BoxStyle{
+    width: 15rem;
+    height: 15rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+
+}
+

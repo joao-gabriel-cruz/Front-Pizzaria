@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import Button from '../../components/button/button';
+import Button from '../../components/button';
 import './Welcome.css';
 
 function Welcome() {

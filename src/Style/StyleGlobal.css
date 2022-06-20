@@ -10,3 +10,9 @@
 span{
     color: var(--base-color);
 }
+
+.title{
+    font-size: 2rem;
+     font-Family: 'Roboto', sans-serif;
+    font-weight: 900;
+}

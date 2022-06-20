@@ -1,6 +1,6 @@
 
 import { Link, useNavigate } from  'react-router-dom';
-import Button from '../../../components/button/button';
+import Button from '../../components/button';
 import './Start.css';
 
 function Start() {
@@ -9,8 +9,8 @@ function Start() {
 
 
   return (
-    <section className="Home">
-        <div className='textHome'>
+    <section className="Start">
+        <div className='textStart'>
             <h2>What is Loren ipsum</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

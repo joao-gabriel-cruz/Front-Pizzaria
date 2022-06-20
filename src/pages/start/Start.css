@@ -1,5 +1,5 @@
 
-.Home{
+.Start{
     height: 35rem;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
     width: 100%;
     
 }
-.textHome{
+.textStart{
     width: 30%;
 
     position: absolute;
@@ -25,12 +25,12 @@
 }
 
 .links{
-    height: 100px;
     width: 100%;
     color: #fff;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    align-content: center;
+  
    
 }
 .menu{ 
