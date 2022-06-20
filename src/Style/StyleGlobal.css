@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,15 +6,24 @@
     text-decoration-line: unset;
     font-family: 'Roboto', sans-serif;
 }
-:root{
+
+:root {
     --base-color: #CF3031;
     --color-secondary: #880707;
 }
-span{
+
+span {
     color: var(--base-color);
 }
 
-.title{
+.title {
     font-size: 2rem;
     font-weight: 900;
+}
+
+.container {
+    margin: 1rem;
+    margin-top: 2rem;
+
+
 }

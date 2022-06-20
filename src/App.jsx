@@ -1,5 +1,5 @@
-import Welcome from './pages/Welcome/Welcome.jsx';
-import Home from './pages/Home/Home.jsx';
+import Welcome from './pages/Welcome/';
+import Home from './pages/Home/';
 
 import {
   Routes,
@@ -7,8 +7,6 @@ import {
 } from "react-router-dom"
 
 function App() {
-
-
   return (
    <Routes>
       <Route path="/" element={<Welcome />} />

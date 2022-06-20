@@ -14,11 +14,10 @@ function Delivery() {
         </h3>
       </div>
        <div className='containerDelivery'>
-           <DeliveryComponets svg={UberEats} />
-           <DeliveryComponets svg={DoorDash} />
-           <DeliveryComponets svg={GrubHub} />
-           <DeliveryComponets svg={Favor} />
-
+           <DeliveryComponets svg={UberEats}w='15rem' h='15rem'  mt='2rem' p='1rem' mr='2rem' radius='10px'/>
+           <DeliveryComponets svg={DoorDash}w='15rem' h='15rem'  mt='2rem' p='1rem' mr='2rem' radius='10px' />
+           <DeliveryComponets svg={GrubHub} w='15rem' h='15rem'  mt='2rem' p='1rem' mr='2rem' radius='10px' />
+           <DeliveryComponets svg={Favor}   w='15rem' h='15rem'  mt='2rem' p='1rem' mr='2rem' radius='10px'/>
        </div>
     </section>
   );
