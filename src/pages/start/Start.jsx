@@ -19,7 +19,7 @@ function Start() {
               nihil error, voluptatem fugit dolor consequatur.
             </p>
             <div className='links'>
-              <Link to=''><Button functionClick={() => navigate('') } className='button' name='Pedir online'/></Link>
+              <Link to=''><Button functionClick={() => navigate('') } className='buttonStart' name='Pedir online'/></Link>
               <Link to='' > <p className='menu'>Ver Menu</p></Link>
             </div>
         </div>

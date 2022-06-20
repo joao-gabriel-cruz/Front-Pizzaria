@@ -3,9 +3,12 @@
     padding: 0;
     text-decoration: none;
     text-decoration-color: unset;
+    text-decoration-line: unset;
+    font-family: 'Roboto', sans-serif;
 }
 :root{
     --base-color: #CF3031;
+    --color-secondary: #880707;
 }
 span{
     color: var(--base-color);
@@ -13,6 +16,5 @@ span{
 
 .title{
     font-size: 2rem;
-     font-Family: 'Roboto', sans-serif;
     font-weight: 900;
 }
