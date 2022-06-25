@@ -6,6 +6,9 @@ import GrubHub from '../../assets/GrubHub.svg';
 import Favor from '../../assets/Favor.svg';
 
 function Delivery() {
+
+
+
   return (
     <section className="SectionDelivery">
       <div className="Tiltebox" >
