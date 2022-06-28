@@ -14,7 +14,7 @@ function Home() {
           { name: 'Home', link: '#start' },
           { name: 'Delivery', link: '#delivery' },
         ]}
-        title={{ title: 'Salvation' }}
+        title={{ title: 'Front Produtos' }}
       />
       <main>
       <div id="start">

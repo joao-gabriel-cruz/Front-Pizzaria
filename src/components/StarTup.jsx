@@ -1,8 +1,9 @@
 import '../Style/StarTup.css'
 
 function DeliveryComponets(
-  { 
+  {
     svg,
+    link,
     h,
     w,
     p,
@@ -14,7 +15,7 @@ function DeliveryComponets(
     mb,
   }) {
 
- const style = {
+  const style = {
     width: w,
     height: h,
     padding: p,
@@ -28,15 +29,18 @@ function DeliveryComponets(
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
- }
+    cursor: 'pointer',
+    border: 'none'
+
+  }
 
 
   return (
-    <div style={style}>
+    <a style={style} href={link}>
       <div>
         <img src={svg} alt="" />
       </div>
-    </div>
+    </a>
   );
 }
 export default DeliveryComponets;

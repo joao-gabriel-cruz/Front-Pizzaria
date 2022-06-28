@@ -5,7 +5,7 @@ function Header({ link, title, className, spaceYnav }) {
         <h1 className="titleHeader">{title.title}</h1>
       </div>
       <nav>
-        <ul className="navHeader">
+        <ul className={className ? className : "navHeader"}>
           {link.length > 0 &&
             link.map((link) => (
               <a

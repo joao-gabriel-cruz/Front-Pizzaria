@@ -8,7 +8,7 @@ function Welcome() {
     <section className="Welcome">
       <div className="boxAp">
         <div className="apresentacao">
-          <h1>SALVATION PIZZA</h1>
+          <h1>Front Produtos</h1>
           <span className="bem-vindo">Seja bem-vindo</span>
           <Link to="/home">
             <Button className='button' functionClick={() => navigate('/home')} name='Pedir online' />
@@ -17,7 +17,7 @@ function Welcome() {
       </div>
       <div className='img'>
         <img
-          src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+          src="https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg"
           alt=""
         />
       </div>

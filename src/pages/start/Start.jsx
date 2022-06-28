@@ -23,7 +23,7 @@ function Start() {
               <Link to='' > <p className='menu'>Ver Menu</p></Link>
             </div>
         </div>
-          <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="" />
+          <img src="https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_960_720.jpg" alt="" />
     </section>
   );
 }

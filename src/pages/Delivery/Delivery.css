@@ -1,11 +1,10 @@
-
-
-.Tiltebox{
+.Tiltebox {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.containerDelivery{
+
+.containerDelivery {
     width: 100%;
     display: flex;
     justify-content: center;

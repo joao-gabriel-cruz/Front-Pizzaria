@@ -41,7 +41,7 @@ h1{
     padding: 1rem;
     width: 17rem;
     background-color: var(--base-color);
-    box-shadow: 0px 6px 20px rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 6px 20px var(--base-color);
     color: white;
     
     font-size: 1.5rem;
@@ -57,8 +57,8 @@ h1{
     margin-left: 4rem;
 }
 .button:hover{
-    background-color: rgb(119, 2, 2);
-    box-shadow: 0px 6px 20px rgba(146, 2, 2, 0.5);
+    background-color: var(--color-secondary);
+    box-shadow: 0px 6px 20px var(--color-secondary)
    
 }
 
